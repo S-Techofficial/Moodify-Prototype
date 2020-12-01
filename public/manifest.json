@@ -4,7 +4,7 @@
   "theme_color": "#3f51b5",
   "background_color": "#FFF",
   "display": "standalone",
-  "scope": "/",
+  "Scope": "https://moodifymusic.tech/",
   "start_url": "/",
   "icons": [
     {
