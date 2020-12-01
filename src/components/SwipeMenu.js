@@ -65,7 +65,7 @@ const SwipeMenu = () => {
     }
   };
 
-  
+
 
 
   return (
@@ -81,17 +81,17 @@ const SwipeMenu = () => {
             position: "relative",
             width: "30px",
             height: "30px",
-            display:"flex"
+            display: "flex"
           }}
-        >   
-            <FormGroup style={{justifyContent:"space-evenly"}}>
-            <p style={{color:"#fff",margin:"16px"}}>Light</p>
-              <FormControlLabel 
-                control={<Switch checked={isNight} onChange={() => handleThemeToggle()}  />}
-              />
-            <p style={{color:"#000"}}>Dark</p>
-            </FormGroup>
-            
+        >
+          <FormGroup style={{ justifyContent: "space-evenly" }}>
+            <p style={{ color: "#fff", margin: "16px" }}>Light</p>
+            <FormControlLabel
+              control={<Switch checked={isNight} onChange={() => handleThemeToggle()} />}
+            />
+            <p style={{ color: "#000" }}>Dark</p>
+          </FormGroup>
+
         </div>
 
         <Divider />
@@ -111,7 +111,7 @@ const SwipeMenu = () => {
             button
             component={MaterialLink}
             target="blank"
-            href="https://github.com/ShivamJoker/Ylight-Music-Client"
+            href="https://github.com/S-Techofficial/Moodify-Prototype"
           >
             <ListItemIcon>
               <svg
